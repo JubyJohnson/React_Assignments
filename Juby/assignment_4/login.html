@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="loginstyle.css" />
+  </head>
+  <script type="text/javascript" src="login.js"></script>
+  <body> 
+    <form action="/message.html" onsubmit="return login()">  
+      <div class="heading"></div>
+    <div class="login"> 
+        <div class="subrows">  
+        <table style="width: 20%">  
+            <h2>Login here</h2>  
+            <tr>     
+            <td>UserName</td>       
+            <td><input type="text" placeholder= "Enter username" id="username" name="username" required /></td>          
+            <label id="1"></label>   
+            </tr>  
+        </div>   
+        <div class="subrow">
+            <tr>
+            <td>Password</td>             
+             <td><input type="password" placeholder= "Enter password" id="password" name="password" required/>
+        </tr>
+            </div>    
+        </table>
+        <div class="subrow">
+             <button type="submit" class="button">Login</button>
+             <button type="button" class="button" onclick="cancel()">Cancel</button>  
+        </div>
+        </div>
+        <label>
+          <input type= "checkbox" checked="checked" name="remember">Remember Me 
+        </label>
+      </form>
+    </div>
+  </body>
+</html>
