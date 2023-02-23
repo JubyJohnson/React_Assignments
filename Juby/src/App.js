@@ -1,13 +1,13 @@
 import "./App.css";
-import Example from "./components/funct-comp/Example";
-import ParentComponent from "./components/funct-comp/ParentComponent";
+import Header from "./components/funct-comp/Header";
+import RegistrationForm from "./components/funct-comp/RegistrationForm";
 
 function App() {
   return (
     <div className="App">
-   <Example />
-   <ParentComponent/>
-   </div>
+      <Header/>
+      <RegistrationForm/>
+    </div>
   );
 }
 
