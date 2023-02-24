@@ -1,0 +1,38 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product_list {
+  width: 550px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 20px;
+  background-image: linear-gradient(to right, #64b2cc 30%, #657980);
+}
+
+.title {
+  display: inline;
+  text-align: center;
+  width: 240px;
+  font-weight: bold;
+  font-size: 150%;
+  color: darkred;
+}
+
+.description {
+  display: inline;
+  text-align: center;
+  width: 240px;
+  font-weight: bold;
+  font-size: 100%;
+  color: white;
+}
+
+
