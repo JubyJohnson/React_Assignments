@@ -1,0 +1,38 @@
+.main-div{
+    display: inline-block;
+    margin-top: 80px;
+    height: 300px;
+    width: 40%;
+    background-color:aqua;
+    border-style: double;
+  }
+  
+  label {
+      display: inline;
+      zoom: 1;
+      float: left;
+      padding-top: 5px;
+      text-align: left;
+      width: 100px;
+      height: 30px;
+      margin-left: 100px;
+    }
+    
+    input[type="text"],input[type="password"]{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      zoom: 1;
+      width: 180px;
+      height: 20px;
+      padding-left: 5px;
+      margin-right: 100px;
+    }
+  
+    input[type="button"]{
+      margin-top: 40px;
+      width: 80px;
+      height: 30px;
+      padding: auto;
+      border-style: solid;
+      color:blue;
+    }
